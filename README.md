@@ -34,3 +34,20 @@ Clone this repository by using the following command:
 
 > `git clone https://github.com/sondre5M1/dt-duckiebot-localize`
 
+### 2. Build the packages to the desired duckiebot
+
+Once the repository is finished with the cloning process
+go to the path for the repository. Once there, run the command:
+
+> `dts devel build -f -H <HOSTNAME>.local`
+
+This may take some time to process as it instructs the duckiebot to create an image of the packages. 
+
+### 3. Run the package on the desired duckiebot
+
+As the build is complete all that requires now is to run the command:
+
+> `dts devel run -H <HOSTNAME>.local`
+
+The command will instruct the duckiebot to run the image in a container.
+This command must be executed each time the duckie is booted. 
