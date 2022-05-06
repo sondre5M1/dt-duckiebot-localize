@@ -1,9 +1,9 @@
 # parameters
-ARG REPO_NAME="<REPO_NAME_HERE>"
-ARG DESCRIPTION="<DESCRIPTION_HERE>"
-ARG MAINTAINER="<YOUR_FULL_NAME> (<YOUR_EMAIL_ADDRESS>)"
+ARG REPO_NAME="dt-duckiebot-localize"
+ARG DESCRIPTION="A repo collecting the other necessary repositories which is required for additional localization"
+ARG MAINTAINER="Sondre Femmen (sondre.femmen@gmail.com)"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
-ARG ICON="cube"
+ARG ICON="file-code-o"
 
 # ==================================================>
 # ==> Do not change the code below this line
