@@ -47,7 +47,7 @@ This may take some time to process as it instructs the duckiebot to create an im
 
 As the build is complete all that requires now is to run the command:
 
-> `dts devel run -H <HOSTNAME>.local`
+> `dts devel run -H <HOSTNAME>.local -M -s -f -- --privileged -it -v /tmp/argus_socket:/tmp/argus_socket`
 
 The command will instruct the duckiebot to run the image in a container.
 This command must be executed each time the duckie is booted. 
