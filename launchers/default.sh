@@ -14,7 +14,8 @@ dt-set-module-healthy
 
 # launching app
 dt-exec echo "This code is intended to work on a duckiebot model DB21M."
-roslaunch dt_duckie_odometry odometry_node.launch veh:=$VEHICLE_NAME
+dt-exec roslaunch dt_duckie_odometry odometry_node.launch veh:=$VEHICLE_NAME
+dt-exec roslaunch --wait imu imu_node.launch veh:="$VEHICLE_NAME" \ robot_type:="$ROBOT_TYPE" \ robot_configuration:="$ROBOT_CONFIGURATION"
 
 # ----------------------------------------------------------------------------
 # OUR CODE ABOVE THIS LINE

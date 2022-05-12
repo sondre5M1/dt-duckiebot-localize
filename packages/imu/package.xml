@@ -1,0 +1,11 @@
+<package>
+  <name>imu</name>
+  <version>0.1.0</version>
+  <description>
+  This package is for imu data.
+  </description>
+  <maintainer email="ruben.fosby@hiof.no">Ruben Arne Fosby</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
